@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "debug": "nodemon server.js"
+  },
+  "config": {
+    "APP_PORT": 4000
+  },
+  "dependencies": {
+    "koa-bodyparser": "^4.2.1",
+    "mongoose": "^5.6.9"
+  }
+}
